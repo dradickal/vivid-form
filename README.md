@@ -1,4 +1,4 @@
 Vivid Form
 ==========
 
-Code sample based for Vivid Seats
+Code sample for Vivid Seats
