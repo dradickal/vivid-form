@@ -95,7 +95,7 @@ button {
   text-align: center;
   background-color: #00be1c;
   border: 1px solid #13b024;
-  border-bottom-width: 2px;
+  border-bottom-width: 3px;
   display: inline-block; }
 
 .why-give {
@@ -117,6 +117,6 @@ button {
   line-height: 3rem;
   vertical-align: middle;
   border: 1px solid #d9d9d9;
-  border-bottom-width: 2px;
+  border-bottom-width: 3px;
   border-radius: 3px;
   background-color: #fafafa; }

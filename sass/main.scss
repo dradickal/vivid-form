@@ -97,7 +97,7 @@ button {cursor: pointer;}
     text-align: center;
     background-color: $submit;
     border: 1px solid $submit-border;
-    border-bottom-width: 2px;
+    border-bottom-width: $bottom-width;
     display: inline-block; //for IE < Edge
 }
 
@@ -121,7 +121,7 @@ button {cursor: pointer;}
     line-height: 3rem;
     vertical-align: middle;
     border: $borders;
-    border-bottom-width: 2px;
+    border-bottom-width: $bottom-width;
     border-radius: $border-radius;
     background-color: $off-white;
 }
