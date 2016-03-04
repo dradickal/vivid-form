@@ -1,0 +1,35 @@
+$dark-grey: #424242;
+$light-grey: #828282;
+$off-white: #fafafa;
+$white: #ffffff;
+$highlight: #f15e33;
+$submit: #00be1c; 
+$submit-border: #13b024;
+$links: #119fd5;
+
+$borders:1px solid #d9d9d9;
+$border-radius: 3px;
+
+@mixin _flex-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin _form-items {
+    font-weight: bold;
+    height: 3.9rem; //for IE < Edge
+    line-height: 3.6rem;
+    vertical-align: middle;
+    border-radius: 3px;
+    width: 47%;
+}
+
+@mixin _stand-out {
+    font-weight: bold;
+}
+
+@mixin _triangle {
+    border-top: 13px solid $dark-grey;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}

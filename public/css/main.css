@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5rem;
+  width: 420px;
+  margin: 0px auto;
+  color: #828282;
+  display: flex;
+  height: 100vh; }
+
+button {
+  cursor: pointer; }
+
+.body-wrapper {
+  width: 420px;
+  align-self: center;
+  padding: 0px 10px; }
+
+.notice {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  background-color: #424242;
+  border-radius: 3px;
+  padding: 3px;
+  margin-bottom: 15px; }
+  .notice:after {
+    content: "";
+    position: absolute;
+    right: 10%;
+    border-top: 13px solid #424242;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent; }
+
+.amount-remaining {
+  font-weight: bold; }
+
+.progress-bar {
+  height: 16px;
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px solid #d9d9d9;
+  border-bottom: none; }
+  .progress-bar .fill {
+    height: 15px;
+    display: block;
+    width: 83%;
+    background-color: #f15e33; }
+
+.main {
+  border: 1px solid #d9d9d9;
+  padding: 0 2rem; }
+
+.days-remaining {
+  font-weight: bold;
+  color: #f15e33; }
+
+.donor-count {
+  font-weight: bold; }
+
+.donation {
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+
+.dollar-sign {
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+  position: absolute;
+  left: 5px; }
+
+.donation-amount {
+  font-weight: bold;
+  height: 3.9rem;
+  line-height: 3.6rem;
+  vertical-align: middle;
+  border-radius: 3px;
+  width: 47%;
+  border: 1px solid #d9d9d9;
+  padding-left: 25px;
+  font-size: 1.5rem; }
+
+.submit {
+  font-weight: bold;
+  height: 3.9rem;
+  line-height: 3.6rem;
+  vertical-align: middle;
+  border-radius: 3px;
+  width: 47%;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  background-color: #00be1c;
+  border: 1px solid #13b024;
+  border-bottom-width: 2px;
+  display: inline-block; }
+
+.why-give {
+  text-decoration: none;
+  font-style: italic;
+  color: #119fd5; }
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px; }
+
+.btn {
+  width: 47%;
+  color: #828282;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 3rem;
+  vertical-align: middle;
+  border: 1px solid #d9d9d9;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  background-color: #fafafa; }

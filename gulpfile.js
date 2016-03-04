@@ -9,14 +9,14 @@ gulp.task('serve', ['css'], function(){
         }
     });
     
-    gulp.watch('./src/sass/**/*.scss', ['css']);
+    gulp.watch('./sass/**/*.scss', ['css']);
     gulp.watch(['./public/**/*.html']).on('change', browserSync.reload);
 });
 
 gulp.task('css', function() {
     gulp.src('./sass/**/*.scss')
       .pipe(sass())
-      .pipe(gulp.dest('.public/css/'))
+      .pipe(gulp.dest('./public/css/'))
       .pipe(browserSync.stream());
 });
 
