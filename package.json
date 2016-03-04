@@ -1,0 +1,20 @@
+{
+  "name": "vivid-form",
+  "version": "0.0.1",
+  "description": "",
+  "main": "public/index.html",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dradickal/vivid-form.git"
+  },
+  "author": "David Radick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dradickal/vivid-form/issues"
+  },
+  "homepage": "https://github.com/dradickal/vivid-form#readme"
+}
